@@ -1,4 +1,3 @@
-
 # printing ith node of a linked list
 from sys import stdin
 
@@ -9,6 +8,7 @@ class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
+
 
 # see i have made changes
 
@@ -24,6 +24,8 @@ def printIthNode(head, i):
         curr = curr.next
         count += 1
     return
+
+
 # Taking Input Using Fast I/O
 
 
